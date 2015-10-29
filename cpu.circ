@@ -988,7 +988,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="0" loc="(730,1150)" name="Tunnel">
       <a name="width" val="10"/>
-      <a name="label" val="jal"/>
+      <a name="label" val="j&amp;jal"/>
     </comp>
     <comp lib="0" loc="(330,500)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -1054,6 +1054,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="10"/>
       <a name="label" val="ori"/>
     </comp>
+    <comp loc="(140,1230)" name="main"/>
     <comp lib="0" loc="(710,680)" name="Pin">
       <a name="width" val="10"/>
       <a name="tristate" val="false"/>
