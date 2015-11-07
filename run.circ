@@ -227,8 +227,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(230,230)" to="(230,250)"/>
     <wire from="(600,250)" to="(640,250)"/>
     <wire from="(570,250)" to="(580,250)"/>
-    <wire from="(800,350)" to="(860,350)"/>
     <wire from="(70,100)" to="(70,160)"/>
+    <wire from="(810,350)" to="(860,350)"/>
     <wire from="(280,160)" to="(280,180)"/>
     <wire from="(570,250)" to="(570,350)"/>
     <wire from="(260,370)" to="(260,380)"/>
@@ -246,12 +246,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(860,350)" to="(880,350)"/>
     <comp lib="0" loc="(160,390)" name="Clock">
       <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(800,350)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="32"/>
-      <a name="label" val="Requested Instruction"/>
-      <a name="labelloc" val="south"/>
     </comp>
     <comp lib="7" loc="(280,210)" name="main"/>
     <comp lib="4" loc="(780,250)" name="ROM">
@@ -308,6 +302,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit29" val="none"/>
       <a name="bit30" val="none"/>
       <a name="bit31" val="none"/>
+    </comp>
+    <comp lib="0" loc="(810,350)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="Requested Instruction"/>
+      <a name="labelloc" val="south"/>
     </comp>
     <comp lib="0" loc="(340,100)" name="Pin">
       <a name="facing" val="south"/>
